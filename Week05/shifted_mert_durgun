@@ -1,0 +1,4 @@
+import central_tendency
+
+def shifted(data):
+    return abs((mean(data) - median(data)) / median(data)) * 100
